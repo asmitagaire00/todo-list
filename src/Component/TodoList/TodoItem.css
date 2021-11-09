@@ -1,0 +1,23 @@
+.todoItem__details {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border: none;
+  border-bottom: 1px solid orange;
+  font-size: 2.1rem;
+}
+
+.completed__button {
+  margin-right: 10px;
+}
+
+.todoItem__text--done {
+  text-decoration: line-through;
+}
+.todoItem__text {
+  cursor: pointer;
+}
